@@ -14,31 +14,29 @@ public class Trigonomet {
     double b;
     double a;
 
-    public Trigonomet() {
+    
         
-        double seno( ){ 
+       double seno(){
         
-        a=Math.sin(a);
-        return a;
-      
-                
+        b=Math.sin(a);
+        return b;       
     }
        double coseno(){
-        a=Math.cos(a);
-        return a;
+        b =Math.cos(a);
+        return b;
         
     } 
-         float tangente (){
-        a=Math.tan(a);
-        return a;
+         double tangente (){
+        b=Math.tan(a);
+        return b;
     }
      
-    float cotangente (){
-        a=1/Math.tan(a);
-        return a;
+    double cotangente (){
+        b=1/Math.tan(a);
+        return b;
     }
        
     
-   }
+   
   
 }

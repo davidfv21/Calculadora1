@@ -73,13 +73,13 @@ public class MenuCalc {
                   tri.a=IngresarA();
                     break;
                 case 7:
-                    System.out.println("Seno  es: " );
+                    System.out.println("Seno  es: "+ tri.seno() );
                     break;
                 case 8:
-                    System.out.println("Coseno es" );
+                    System.out.println("Coseno es"+ tri.coseno() );
                     break;
                 case 9:
-                    System.out.println("Tangente es ");
+                    System.out.println("Tangente es "+ tri.tangente());
                     break;
                     case 10:
                     con.a = Ingresargrado();
